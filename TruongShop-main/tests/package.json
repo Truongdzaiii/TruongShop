@@ -1,0 +1,14 @@
+{
+  "name": "Truongshop-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kiểm thử tự động API và giao diện TruongShop",
+  "type": "module",
+  "scripts": {
+    "api": "node api.test.mjs",
+    "ui": "node ui.test.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}
